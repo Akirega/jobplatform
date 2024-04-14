@@ -7,7 +7,7 @@ app.secret_key = 'Tc_D9vfg2OYAP_3TE5k6Hvnjyuvsg9tk'  # Replace 'your_secret_key'
 # LinkedIn API credentials
 CLIENT_ID = '86vd9gvdutpb1m'
 CLIENT_SECRET = 'Gh7yG8Et8D30kbXv'
-REDIRECT_URI = 'https://akirega.github.io/jobplatform/'  # Replace with your new redirect URI
+REDIRECT_URI = 'https://akirega.github.io/jobplatform/auth/linkedin/callback'
 
 # Endpoint to initiate the OAuth 2.0 authorization flow
 @app.route('/auth/linkedin')
